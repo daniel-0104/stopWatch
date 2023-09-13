@@ -23,14 +23,14 @@ label > i{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 14pt;
+    font-size: 13pt;
     margin-bottom: 0;
     color: #a7e6eb;
 }
 #name > span
 {
     display: flex;
-    margin: 10px;
+    margin: 8px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@ label > i{
 #number > span
 {
     display: flex;
-    margin: 10px;
+    margin: 8px;
     color: white; 
     background-color: rgb(33, 33, 33);
     width: 60px;
@@ -76,33 +76,55 @@ label > i{
 }
 #startbtn
 {
-    background-color: green;
+    background-color: rgb(10, 134, 10);
     border: none;
 }
 #startbtn:hover
 {
-    background-color: rgb(27, 133, 27);
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 2px rgb(55, 55, 55);
 }
 #stopbtn
 {
-    background-color: red;
+    background-color: rgb(229, 229, 53);
     border: none;
 }
 #stopbtn:hover
 {
-    background-color: rgb(255, 33, 33);
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 2px rgb(55, 55, 55);
 }
 #resetbtn
 {
-    background-color: rgb(233, 233, 53);
+    background-color: red;
     border: none;
 }
 #resetbtn:hover
 {
-    background-color: rgb(228, 228, 37);
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 2px rgb(55, 55, 55);
+}
+@media screen and (min-width: 275px) and (max-width: 353px){
+    #name{
+        font-size: 10pt;
+    }
+    #name > span{
+        margin: 5px 4px 10px;
+        width: 50px;
+    }
+    #number{
+        font-size: 17pt;
+    }
+    #number>span{
+        width: 50px;
+        height: 50px;
+        margin: 4px;
+        border-radius: 50px;
+    }
+    #btn > button{
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 14pt;
+        border-radius: 20px;
+        color: white;
+    }
 }
 @media screen and (max-width: 280px){
     #name{
