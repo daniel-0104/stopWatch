@@ -1,6 +1,6 @@
 body
 {
-    background-color: #889495;
+    background-color: #9fb0b2;
 }
 #watch-content{
     background-color: #407c87;
@@ -14,7 +14,7 @@ label > i{
     font-family: calibri;
     text-align: center;
     color: white;
-    margin: 20px 0;
+    margin: 10px 0 20px;
 }
 #name
 {
