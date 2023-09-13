@@ -1,0 +1,111 @@
+body
+{
+    background-color: #889495;
+}
+#watch-content{
+    background-color: #407c87;
+}
+label > i{
+    color: #afd9dc;
+    font-size: 35pt;
+}
+#header
+{
+    font-family: calibri;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+#name
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 0;
+    color: #a7e6eb;
+}
+#name > span
+{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: calibri;
+    width: 60px;
+}
+#number
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19pt;
+    margin-top: -10px;
+}
+#number > span
+{
+    display: flex;
+    margin: 10px;
+    color: white; 
+    background-color: rgb(33, 33, 33);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    font-family: calibri;
+}
+#btn
+{
+    text-align: center;
+    margin-top: 26px;
+}
+#btn > button
+{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16pt;
+    border-radius: 20px;
+    color: white;
+}
+#startbtn
+{
+    background-color: green;
+    border: none;
+}
+#startbtn:hover
+{
+    background-color: rgb(27, 133, 27);
+    box-shadow: 2px 2px 3px black;
+}
+#stopbtn
+{
+    background-color: red;
+    border: none;
+}
+#stopbtn:hover
+{
+    background-color: rgb(255, 33, 33);
+    box-shadow: 2px 2px 3px black;
+}
+#resetbtn
+{
+    background-color: rgb(233, 233, 53);
+    border: none;
+}
+#resetbtn:hover
+{
+    background-color: rgb(228, 228, 37);
+    box-shadow: 2px 2px 3px black;
+}
+@media screen and (max-width: 280px){
+    #name{
+        display: none;
+    }
+}
